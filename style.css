@@ -1,0 +1,106 @@
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(14, 14, 14);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4rem;
+}
+.content
+{
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.content-add-item
+{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+#tarefa,
+#bt-nova-tarefa
+{
+	border: none;
+	font-size: 1rem;
+	outline: none;
+	padding: 1rem;
+}
+
+#tarefa
+{
+	width:  20rem;
+	border-radius: 1rem;
+}
+
+#bt-nova-tarefa
+{
+	background-color: rgb(32, 32, 32);
+	color: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: .4s;
+}
+
+#bt-nova-tarefa:hover
+{
+	background-color: rgb(22, 22, 22);
+}
+
+#lista-tarefas
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0;
+}
+
+#lista-tarefas li
+{
+	list-style-type: none;
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#lista-tarefas li:hover
+{
+	background-color: #726d6d0e;
+	transition: .4s;
+	border-radius: 1rem;
+	padding-left: 1rem;
+}
+
+#btn-ok
+{
+	background-color: green;
+	color: #fff;
+	border: none;
+	font-size: 1rem;
+	padding: .4rem .8rem;
+    border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: .4s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#btn-ok:hover
+{
+	background-color: rgba(0, 128, 0, 0.664);
+}
+
+
+

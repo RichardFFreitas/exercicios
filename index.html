@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Imagens/lapis.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1 id="title">Lista de Tarefas || </h1>
+    <div class="content">
+        <div class="content-add-item">
+            <input type="text" id="tarefa" placeholder="Digite sua tarefa">
+            <button onclick="newTask()" type="submit" id="bt-nova-tarefa" title="Clique aqui para adicionar uma nova tarefa">+</button>
+        </div>
+        <div class="content-body">
+            <ol id="lista-tarefas">
+            </ol>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
