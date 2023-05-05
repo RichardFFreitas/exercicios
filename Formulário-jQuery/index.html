@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário jQuery</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1>Formulário jQuery</h1>
+        </div>
+    </header>
+    <form id="form-jquery">
+        <div class="form-camp">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <div class="form-camp">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-camp">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+        <div class="form-camp">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf">
+        </div>
+        <div class="form-camp">
+            <label for="endereco">Endereço completo:</label>
+            <br>
+            <br>
+            <input type="text" id="cep" placeholder="CEP" name="cpf">
+            <br>
+            <br>
+            <input type="text" id="logradouro" placeholder="Rua" >
+            <br>
+            <br>
+            <input type="text" id="bairro" placeholder="Bairro" >
+            <br>
+            <br>
+            <input type="text" id="cidade" placeholder="Cidade">
+            <br>
+            <br>
+            <input type="text" id="uf" placeholder="Estado" >
+        </div>
+        <button type="submit" id="btn-enviar">Enviar</button>
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+</body>
+</html>
